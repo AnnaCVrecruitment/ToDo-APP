@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-01-22T17:30:03.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Tie0BTbr-sKUzIAho_OT" version="22.1.21" type="device">
+  <diagram name="Страница — 1" id="J7yTwET_F1kfguZmAPT2">
+    <mxGraphModel dx="1580" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-1" value="1&lt;br&gt;2&lt;br&gt;&lt;ol&gt;&lt;li&gt;3&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-3" value="&lt;ol&gt;&lt;li&gt;input&amp;nbsp;&lt;/li&gt;&lt;li&gt;кнопка добавить&lt;/li&gt;&lt;li&gt;Ниже список дел&lt;br&gt;&lt;/li&gt;&lt;li&gt;каждую туду можно удалить и изменить&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="10" width="227" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="20" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-5" value="инпут(введите задачу)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-6" value="кнопка (добавить)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="45" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.13;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zPWYuvu1AbPiRfRrdD0m-5" target="zPWYuvu1AbPiRfRrdD0m-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-8" value="предыдущие задачи" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="110" width="163" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-9" value="предыдущие задачи" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="220" width="163" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-10" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;предыдущие задачи&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="160" width="163" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-11" value="app" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="290" width="350" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-12" value="index page" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="300" width="310" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-13" value="todo" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-733" y="320" width="223" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-14" value="input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-15" value="button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-17" value="task" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="390" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-19" value="input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-20" value="button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-615" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zPWYuvu1AbPiRfRrdD0m-22" value="&lt;ol&gt;&lt;li&gt;Сохранить текст в переменную taskName скрипте, чтобы создать таску&lt;br&gt;&lt;/li&gt;&lt;li&gt;Привязать к баттону слушатель события&lt;br&gt;&lt;/li&gt;&lt;li&gt;Создать пустой массив в компоненте туду&lt;/li&gt;&lt;li&gt;Добавляем переменной массива реактивности&lt;/li&gt;&lt;li&gt;При создании таски в массив добавляется объект с id-Date.now(), title - taskName&lt;br&gt;&lt;/li&gt;&lt;li&gt;В task сделать пропс name: item.title&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-477" y="291" width="350" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
