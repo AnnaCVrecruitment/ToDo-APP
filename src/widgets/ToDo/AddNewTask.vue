@@ -58,21 +58,25 @@ function onAdd() {
     margin: 50px auto;
     padding: 20px;
   }
+
+  @media (min-width: 700px) {
+    padding: 25px;
+  }
 }
 
 .add-new-task__return-button {
   justify-content: start;
   background-color: #ffffff;
   padding: 0;
-
-  @media (min-width: 700px) {
-    margin-left: 25px;
-    margin-top: 25px;
-  }
+  margin-bottom: 20px;
 }
 
 .add-new-task__return-button path {
   fill: #9395d3;
+}
+
+.add-new-task__return-button path:hover {
+  fill: #747bff;
 }
 
 .add-new-task__icon {
@@ -86,7 +90,6 @@ function onAdd() {
 }
 
 .add-new-task__label {
-  margin-top: 20px;
   color: #9395d3;
   text-transform: uppercase;
   font-size: 20px;
@@ -94,14 +97,13 @@ function onAdd() {
 }
 
 .add-new-task__name {
-  border: none;
+  border: 2px solid transparent;
   outline: none;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
   transition: border 0.2s ease-out;
   flex-grow: 1;
-  margin: 40px 30px;
   border-bottom: 2px solid #8b8787;
   padding: 15px;
   resize: none;
@@ -133,9 +135,9 @@ function onAdd() {
 
 .add-new-task__button {
   position: relative;
-  height: 65px;
+  padding: 15px;
   background-color: #9395d3;
-  color: white;
+  color: #ffffff;
   text-align: center;
   border-radius: 15px;
   font-size: 20px;
@@ -159,10 +161,11 @@ function onAdd() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 40px;
   width: auto;
 
   @media (min-width: 1000px) {
-    padding: 40px;
+    gap: 30px;
   }
 }
 </style>

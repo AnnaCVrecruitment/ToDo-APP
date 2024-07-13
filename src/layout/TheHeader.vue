@@ -18,9 +18,9 @@
 }
 
 .header__text {
-  color: white;
+  color: #ffffff;
   font-size: 24px;
-  margin: 0;
   font-weight: 500;
+  margin: 0;
 }
 </style>

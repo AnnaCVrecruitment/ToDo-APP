@@ -10,7 +10,7 @@
     >
     </textarea>
     <button
-      class="task__edit-button"
+      class="task__edit-button task__icon"
       v-if="isReadonly"
       @click="changeReadonly(false)"
     >
@@ -27,7 +27,7 @@
         />
       </svg>
     </button>
-    <button class="saveTask" v-else @click="onSave">
+    <button class="task__save-button task__icon" v-else @click="onSave">
       <svg
         fill="#9395d3"
         viewBox="-21 -21 682.66669 682.66669"
@@ -38,7 +38,10 @@
         />
       </svg>
     </button>
-    <button class="deleteTask" @click="$emit('delete-task')">
+    <button
+      class="task__delete-button task__icon"
+      @click="$emit('delete-task')"
+    >
       <svg
         id="Layer_2"
         viewBox="0 0 32 32"
@@ -117,7 +120,7 @@ function resetTask() {
   align-items: center;
   color: #9395d3;
   padding: 10px;
-  background-color: white;
+  background-color: #ffffff;
   justify-content: center;
   border-radius: 15px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
@@ -125,11 +128,6 @@ function resetTask() {
   max-width: 80%;
   font-weight: bolder;
   border: 1px solid transparent;
-
-  @media (min-width: 900px) {
-    width: 450px;
-    min-height: 50px;
-  }
 }
 
 .task:hover,
@@ -137,21 +135,15 @@ function resetTask() {
   border: 1px solid #747bff;
 }
 
-.deleteTask,
-.task__edit-button,
-.saveTask {
+.task__icon {
   background-color: transparent;
   padding: 5px;
   width: 40px;
   height: 40px;
 }
 
-.deleteTask:focus,
-.deleteTask:hover,
-.task__edit-button:focus,
-.task__edit-button:hover,
-.saveTask:focus,
-.saveTask:hover {
+.task__icon:focus,
+.task__icon:hover {
   border: 1px solid #747bff;
 }
 </style>
