@@ -14,10 +14,10 @@
 </template>
 
 <script setup>
-import { computed, ref, onMounted } from '/vue';
-import ToDo from 'src/widgets/ToDo/Todo.vue';
-import AddNewTask from 'src/widgets/ToDo/AddNewTask.vue';
-import TheHeader from "../layout/TheHeader.vue";
+import { computed, ref, onMounted } from 'vue';
+import ToDo from '/src/widgets/ToDo/Todo.vue';
+import AddNewTask from '/src/widgets/ToDo/AddNewTask.vue';
+import TheHeader from '../layout/TheHeader.vue';
 
 const componentKey = ref("ToDo");
 const component = computed(() =>
