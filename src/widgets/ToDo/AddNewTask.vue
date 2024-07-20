@@ -37,7 +37,7 @@
 </template>
 
 <script setup>
-import { ref, defineEmits } from "vue";
+import { ref } from "vue";
 const taskName = ref("");
 
 const emit = defineEmits(["create-task", "toggle-component"]);
@@ -55,7 +55,6 @@ function onAdd() {
 
   @media (min-width: 321px) {
     border: #747bff solid 1px;
-    margin: 50px auto;
     padding: 20px;
   }
 
@@ -75,7 +74,8 @@ function onAdd() {
   fill: #9395d3;
 }
 
-.add-new-task__return-button path:hover {
+.add-new-task__return-button path:hover,
+.add-new-task__return-button path:focus {
   fill: #747bff;
 }
 
@@ -109,10 +109,6 @@ function onAdd() {
   resize: none;
   color: #9395d3;
   font-size: 15px;
-
-  @media (min-width: 500px) {
-    margin: 40px 40px;
-  }
 }
 
 .add-new-task__name::-webkit-scrollbar {
@@ -126,7 +122,7 @@ function onAdd() {
 
 .add-new-task__name:focus,
 .add-new-task__name:hover {
-  border: 2px solid #747bff;
+  border: 1px solid #747bff;
 }
 
 .add-new-task__name:focus::placeholder {
@@ -162,7 +158,7 @@ function onAdd() {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  width: auto;
+  width: 800px;
 
   @media (min-width: 1000px) {
     gap: 30px;

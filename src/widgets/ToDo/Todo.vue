@@ -96,7 +96,6 @@
 </template>
 
 <script setup>
-import { defineEmits, defineProps } from "vue";
 import Task from "./Task.vue/";
 
 defineEmits(["delete-task", "change-task", "toggle-component"]);
