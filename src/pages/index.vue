@@ -17,7 +17,7 @@
 import { computed, ref, onMounted } from "vue";
 import ToDo from "../widgets/ToDo/Todo.vue";
 import AddNewTask from "../widgets/ToDo/AddNewTask.vue";
-import TheHeader from "src/layout/TheHeader.vue";
+import TheHeader from "../layout/TheHeader.vue";
 
 const componentKey = ref("ToDo");
 const component = computed(() =>

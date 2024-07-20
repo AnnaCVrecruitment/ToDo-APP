@@ -52,15 +52,6 @@ function onAdd() {
 <style scoped>
 .add-new-task {
   background-color: #ffffff;
-
-  @media (min-width: 321px) {
-    border: #747bff solid 1px;
-    padding: 20px;
-  }
-
-  @media (min-width: 700px) {
-    padding: 25px;
-  }
 }
 
 .add-new-task__return-button {
@@ -97,18 +88,19 @@ function onAdd() {
 }
 
 .add-new-task__name {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   outline: none;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
   transition: border 0.2s ease-out;
   flex-grow: 1;
-  border-bottom: 2px solid #8b8787;
+  border-bottom: 1px solid #8b8787;
   padding: 15px;
   resize: none;
   color: #9395d3;
   font-size: 15px;
+  width: 60%;
 }
 
 .add-new-task__name::-webkit-scrollbar {
@@ -158,10 +150,17 @@ function onAdd() {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  width: 800px;
+  padding: 20px;
+
+  @media (min-width: 321px) {
+    border: 1px solid #747bff;
+    max-width: 400px;
+    margin: 0 auto;
+  }
 
   @media (min-width: 1000px) {
     gap: 30px;
+    max-width: 500px;
   }
 }
 </style>
